@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 0 2%;
+    background-image:linear-gradient(to bottom,#00000066,rgb(30, 30, 30,0.9))  ,url("./assets\ \(2\)/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner-container{
+    align-items: center;
+   display: flex; 
+   justify-content: space-between;
+}
+.inner-container img{
+    height: 50%;
+    width: 15%;
+}
+.buuton-container{
+    width: auto;
+}
+.buuton-container button:nth-child(1){
+   background-color: transparent;
+   border: 1px solid white;
+   padding:2px 6px;
+   
+   color: white;
+   text-align: center;
+   border-radius: 2px;
+} 
+.buuton-container button:nth-child(2){
+    background-color: red;
+    margin-left: 10px;
+    padding:2px 6px;
+    border: none;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  border-radius: 2px;
+ } 
+ .center-container{
+    display: flex;
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .inCenter-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    gap: 10px;
+    color: white;
+    flex-direction: column;
+           
+ }
+ .inCenter-container h1{
+    font-size: 45px;
+ }
+ .inCenter-container h5{
+    font-size: 20px;
+ }
+ .input-center{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 0%;
+   width: 100%;
+   height: 9vh;
+    background-color: black;
+    margin-bottom: 20px;
+ }
+ .input-center input{
+   height: 100%; 
+   outline: none;
+   border: none;
+   padding-left:5px ;
+    width: 70%;
+ }
+ 
+ .input-center input:focus::-webkit-input-placeholder{
+    font-size: 0.75rem;
+    position: relative;
+    top: -15px;
+    transition: 0.2s ease-out;
+    
+ }
+ .input-center button{
+    color: white;
+    background-color: red;
+    height: 100%;
+    border: none;
+    width: 30%;
+
+ }
+ .input-center p{
+    font-size: 15px;
+    color:yellow;
+ }
+
+ /* main-section */
+ #main-section1{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    border-top: 5px solid rgb(52, 51, 51);
+    border-bottom: 5px solid rgb(52, 51, 51) ;
+ }
+ .div-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+ }
+ .text-section{
+    color: white;
+    width: 30%;
+
+ }
+ .text-section h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ .text-section p{
+    word-spacing: 3px;
+    padding-top: 10px;
+    font-weight: 100;
+    font-size: 17px;
+ }
+ .image-section{
+    width: 30%;
+ }
+ .image-section img{
+    height: 100%;
+    width: 100%;
+ }
+
+ /* section-2 */
+
+ #section-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 140vh;
+    background-color: black;
+    border-top: 5px solid rgb(52, 51, 51);
+    border-bottom: 5px solid rgb(52, 51, 51) ;
+
+ }
+ .center-section-2{
+    display: flex;
+    width: 50%;
+    color: white;
+    gap: 2%;
+    text-align: center;
+    flex-direction: column;
+ }
+ .center-h1{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+ }
+ .cell{
+    color: white;
+    padding: 1% 5%;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(73, 71, 71);
+ }
+ .cell h1{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+ }
+ .cell-image{
+
+    width: 20%;
+    height: 100%;
+ }
+ .cell-image img{
+    color: white;
+    width: 100%;
+    height: 100%;
+ }
+ .center-last{
+    margin: 8% 3%;
+    color: white;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+ }
+ #footer-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    border-top: 5px solid rgb(52, 51, 51);
+    border-bottom: 5px solid rgb(52, 51, 51) ;
+ }
+ .footer-center-section{
+    width: 60%;
+    padding: 3% 0 1% 0;
+ }
+ .footer-row-section{
+    display: flex;
+    gap: 5%;
+    padding-top: 5px;
+
+ }
+ 
+ .footer-column-section{
+    height: 100%;
+    display: flex;
+    color: gray;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 5px;
+    width: 20%;
+ }
+ .footer-row-section li{
+    list-style: none;
+
+ }
+ .English-footer-button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding:2px 6px;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+ }
